@@ -8,11 +8,12 @@
     background-image: url("../img/backgroundLp.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right top;
   }
   
   .text {
     font-weight: 400;
+    font-size: 19px;
   }
   
   .container {
@@ -24,7 +25,7 @@
   }
   
   .box {
-    width: 550px;
+    width: 560px;
     min-height: 750px;
   }
   
