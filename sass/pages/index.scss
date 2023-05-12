@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/backgroundLp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.text {
+    font-weight: 400;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.logo {
+    width: 320px;
+}
+
+.box {
+    width: 550px;
+    min-height: 750px;
+}
+
+.text-footer {
+    font-size: 22px;
+}
+
+@media (max-width: 550px) {
+    .box {
+        background-color: none;
+        width: 100%;
+    }
+}
